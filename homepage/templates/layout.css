@@ -1,0 +1,47 @@
+ {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  height:max-content;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.container1__feature {
+    /* Take the remaining width */
+    margin:1em;
+    flex: 1.5;
+    width:50%;
+    text-align:justify;
+}
+
+p.inset {border-style: inset;}
+
+.flex-container {
+    display: flex;
+    text-align:justify;
+}
+
+.flex-child {
+    flex: 1;
+    margin:0.5em;
+    align:center;
+
+}
+
+.flex-child:first-child {
+    margin-right: 4px;
+}
