@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home_view(request):
-    return render(request, "index.html")
+    return render(request, "home.html")
 
 
 def blog(request):
